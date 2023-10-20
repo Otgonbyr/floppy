@@ -17,20 +17,17 @@ body{
     width: 50px;
     height: 50px;
     transform: translate(5px 10px);
-    transition: 0.4s;
-}
-.row{
-    display: flex;
-    flex-direction: row;
-    gap: 150px
+    transition: transform 0.3s;
 }
 .block{
     display: flex;
     flex-direction: column;
     gap: 100px;
+    transition: transform 0.3;
 }
 .block-top, .block-bottom{
     background-color: black;
     width: 50px;
     height: 600px;
+    transition: transform 0.3s;
 }
